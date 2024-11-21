@@ -1,0 +1,45 @@
+{
+    "name": "DrawFrame Controls",
+    "maps": [
+        {
+            "name": "Controller",
+            "id": "624f3d79-d2e2-427a-8092-670e61cdb566",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "71c46bf8-677e-4021-ab6d-24e233e54875",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "554b9414-0f98-4762-9c69-774e0bc62278",
+                    "path": "<Keyboard>/tab",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b6819cca-3cc2-4bcf-8afa-1e3004193957",
+                    "path": "<XRController>{RightHand}/{PrimaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
