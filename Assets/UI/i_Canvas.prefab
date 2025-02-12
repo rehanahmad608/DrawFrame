@@ -410,6 +410,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2255150966849629445}
+        m_TargetAssemblyTypeName: AnimateObject, Assembly-CSharp
+        m_MethodName: MoveToOrigin
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1912187962599476071
 GameObject:
   m_ObjectHideFlags: 0
@@ -427,6 +439,7 @@ GameObject:
   - component: {fileID: 3405964361280029494}
   - component: {fileID: 1030604500838170716}
   - component: {fileID: 5755638420037661167}
+  - component: {fileID: 2255150966849629445}
   m_Layer: 0
   m_Name: i_Canvas
   m_TagString: Untagged
@@ -641,6 +654,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _facing: 0
   _doubleSided: 0
+--- !u!114 &2255150966849629445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1912187962599476071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d37d18ab944afd447b26dcf6bfcfb34f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TargetTransform: {fileID: 0}
+  targetPosition: {x: 2, y: 0, z: -2}
+  speed: 4
 --- !u!1 &2388829258541475657
 GameObject:
   m_ObjectHideFlags: 0
@@ -1261,6 +1289,18 @@ MonoBehaviour:
       - m_Target: {fileID: 8199227368396006232}
         m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
         m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 2255150966849629445}
+        m_TargetAssemblyTypeName: AnimateObject, Assembly-CSharp
+        m_MethodName: MoveToPosition
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

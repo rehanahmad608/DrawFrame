@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &4951666647830501888
+--- !u!1001 &6287324054551296506
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -34,11 +34,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 37ecc97bb22078246a35e7399f176fa9, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7071068
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 37ecc97bb22078246a35e7399f176fa9, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.7071068
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 37ecc97bb22078246a35e7399f176fa9, type: 3}
       propertyPath: m_LocalRotation.y
@@ -50,7 +50,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 37ecc97bb22078246a35e7399f176fa9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -90
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 37ecc97bb22078246a35e7399f176fa9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -60,17 +60,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 37ecc97bb22078246a35e7399f176fa9, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 37ecc97bb22078246a35e7399f176fa9, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: e95e7dc48c146434bad96bef77574d46, type: 2}
+      objectReference: {fileID: 2100000, guid: 6b09d638b0f55774684c66227966ee12, type: 2}
     - target: {fileID: 919132149155446097, guid: 37ecc97bb22078246a35e7399f176fa9, type: 3}
       propertyPath: m_Name
-      value: 3D RightArrowBlue
+      value: 3D RightArrowRed
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -78,20 +74,20 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 37ecc97bb22078246a35e7399f176fa9, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 8556040856021963970}
+      addedObject: {fileID: 8767250703901749682}
   m_SourcePrefab: {fileID: 100100000, guid: 37ecc97bb22078246a35e7399f176fa9, type: 3}
---- !u!1 &5221557927488989009 stripped
+--- !u!1 &6593382260731364523 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 37ecc97bb22078246a35e7399f176fa9, type: 3}
-  m_PrefabInstance: {fileID: 4951666647830501888}
+  m_PrefabInstance: {fileID: 6287324054551296506}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &8556040856021963970
+--- !u!114 &8767250703901749682
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5221557927488989009}
+  m_GameObject: {fileID: 6593382260731364523}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9a6b0add0dc053249b4a1a73df3b2184, type: 3}

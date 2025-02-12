@@ -10,19 +10,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 37ecc97bb22078246a35e7399f176fa9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.0040190467
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 37ecc97bb22078246a35e7399f176fa9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.003032157
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 37ecc97bb22078246a35e7399f176fa9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.0039893347
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 37ecc97bb22078246a35e7399f176fa9, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7071067
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 37ecc97bb22078246a35e7399f176fa9, type: 3}
       propertyPath: m_LocalRotation.x
@@ -34,11 +34,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 37ecc97bb22078246a35e7399f176fa9, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 37ecc97bb22078246a35e7399f176fa9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: -90
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 37ecc97bb22078246a35e7399f176fa9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -51,13 +51,37 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 37ecc97bb22078246a35e7399f176fa9, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 68a87b48fef835244867893f70c9af52, type: 2}
+      objectReference: {fileID: 2100000, guid: 93782cdd44ce17b47a697936ef57dfa3, type: 2}
     - target: {fileID: 919132149155446097, guid: 37ecc97bb22078246a35e7399f176fa9, type: 3}
       propertyPath: m_Name
-      value: 3D RightArrow
+      value: 3D OilArrow
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 37ecc97bb22078246a35e7399f176fa9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3389682229804580307}
   m_SourcePrefab: {fileID: 100100000, guid: 37ecc97bb22078246a35e7399f176fa9, type: 3}
+--- !u!1 &4014404454896949347 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 37ecc97bb22078246a35e7399f176fa9, type: 3}
+  m_PrefabInstance: {fileID: 4285014813013042482}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3389682229804580307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4014404454896949347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6b0add0dc053249b4a1a73df3b2184, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints:
+  - {x: 0, y: 0, z: 0}
+  - {x: -0.075, y: 0, z: 0}
+  speed: 2
