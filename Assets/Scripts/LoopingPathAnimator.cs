@@ -11,11 +11,11 @@ public class LoopingPathAnimator : MonoBehaviour
 
     void Start()
     {
-        if (waypoints.Count > 0)
-        {
-            transform.position = waypoints[0]; // Start at first point
-            StartMovement();
-        }
+        //if (waypoints.Count > 0)
+        //{
+        //    transform.position = waypoints[0]; // Start at first point
+        //    StartMovement();
+        //}
     }
 
     public void StartMovement()
