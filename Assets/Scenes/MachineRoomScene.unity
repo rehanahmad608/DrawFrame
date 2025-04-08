@@ -7005,8 +7005,8 @@ Transform:
   m_GameObject: {fileID: 387089782}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: 1.0289759e-11, z: -0.0000000020997382, w: 0.70710677}
-  m_LocalPosition: {x: 0.00031400053, y: 0, z: -0.003035008}
-  m_LocalScale: {x: 0.00011999999, y: 0.0005, z: 0.00010319992}
+  m_LocalPosition: {x: 0.00031, y: 0, z: -0.00009}
+  m_LocalScale: {x: 0.00011999999, y: 0.003, z: 0.00010319992}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4553755303042080173}
@@ -8728,12 +8728,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 505896667}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 53.126, y: 3.269, z: -1.018}
-  m_LocalScale: {x: 0.79, y: 0.052877933, z: 0.79}
+  m_LocalRotation: {x: 0.5001792, y: -0.49974465, z: -0.4996037, w: 0.500472}
+  m_LocalPosition: {x: 0.000011742115, y: 0, z: 0.25626624}
+  m_LocalScale: {x: 0.26333344, y: 0.017625984, z: 0.26333332}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 7913457982671405987}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!1 &509774015
 GameObject:
@@ -22694,7 +22694,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1012480344
 Transform:
   m_ObjectHideFlags: 0
@@ -24908,7 +24908,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1158192982
 Transform:
   m_ObjectHideFlags: 0
@@ -83480,8 +83480,8 @@ Transform:
   m_LocalScale: {x: 0.7876713, y: 0.7876713, z: 0.7876715}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1022889703507172176}
   - {fileID: 3108432094207054168}
+  - {fileID: 1022889703507172176}
   m_Father: {fileID: 7913457982671405987}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &3010059284962562445
@@ -98192,7 +98192,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4661818202189331230
 Transform:
   m_ObjectHideFlags: 0
@@ -128980,6 +128980,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7913457983646203551}
+  - {fileID: 505896671}
   - {fileID: 4782685731620443811}
   - {fileID: 3006522893482140041}
   m_Father: {fileID: 987642376}
@@ -141393,4 +141394,3 @@ SceneRoots:
   - {fileID: 911777572}
   - {fileID: 1509055781}
   - {fileID: 1149710367}
-  - {fileID: 505896671}
