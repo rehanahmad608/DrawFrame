@@ -32,6 +32,7 @@ public class InfoPanel : MonoBehaviour
     }
     public void HideInfo()
     {
+        Debug.Log("clicked");
         mContentPanel.SetActive(false);
         StopAudio();
 
