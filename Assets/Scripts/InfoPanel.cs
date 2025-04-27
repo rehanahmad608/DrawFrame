@@ -34,10 +34,11 @@ public class InfoPanel : MonoBehaviour
     {
         Debug.Log("clicked");
         mContentPanel.SetActive(false);
-        StopAudio();
 
         if (mAnimateObject != null)
             mAnimateObject.MoveToOrigin();
+
+        StopAudio();
     }
     
     public void PlayAudio()
