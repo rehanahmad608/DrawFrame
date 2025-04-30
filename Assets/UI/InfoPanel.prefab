@@ -100,7 +100,7 @@ MonoBehaviour:
   m_fontSizeMin: 10
   m_fontSizeMax: 16
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 8
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -752,7 +752,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 0.1
 --- !u!114 &6982870937946101065
 MonoBehaviour:
   m_ObjectHideFlags: 0
